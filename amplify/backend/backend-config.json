@@ -33,12 +33,18 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 365,
-              "description": "demo"
+              "description": "API Key"
             }
           },
           "additionalAuthenticationProviders": []
         }
       }
+    }
+  },
+  "storage": {
+    "lexyStorageResource": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
     }
   }
 }
